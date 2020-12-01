@@ -28,5 +28,5 @@ python mlp.py --window_size 10 --hidden_size 4 --noise_std 0.005
 ## Train an LSTM on the SOC Data
 
 ```
-python lstm.py --sequence_length 100 --hidden_size 4 --num_layers 4 --noise_std 0.005
+python recurrent.py --model lstm --sequence_length 100 --hidden_size 4 --num_layers 4 --noise_std 0.005
 ```
