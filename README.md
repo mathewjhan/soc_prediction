@@ -4,7 +4,7 @@ Code to train various models for state-of-charge estimation.
 
 ## Data
 
-Included in the `data/` folder of this repository is the [Panasonic 18650PF Li-ion Battery Data](https://data.mendeley.com/datasets/wykht8y7tg/1).
+This code is trained on the open source [Panasonic 18650PF Li-ion Battery Data](https://data.mendeley.com/datasets/wykht8y7tg/1).
 
 ## Code Setup
 
@@ -18,6 +18,10 @@ This code has the following dependencies:
 * scikit-learn
 
 Our RNN script builds on code from [https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/recurrent_neural_network](https://github.com/yunjey/pytorch-tutorial/blob/master/tutorials/02-intermediate/recurrent_neural_network).
+ 
+## Preconfiguration
+
+Create a `data/` folder and extract the dataset mentioned in the **Data** section into it.
 
 ## Train an MLP on the SOC Data
 
